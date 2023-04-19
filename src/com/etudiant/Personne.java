@@ -248,4 +248,10 @@ public class Personne
 	
 	// TODO: Créer les getters et setters pour la civilite et la langue
 	
+	// En Java, la méthode finalize(), héritée de la classe Object joue le rôle de destructeur.	
+	// On peut l'appeler directement, elle est appelée par le garbage collector quand celui-ci libère la mémoire.
+	// L'appel est donc non déterministe. Il est possible que finalize ne soit jamais appelé.
+	
+	
+	
 } // Fin de la classe Personne
