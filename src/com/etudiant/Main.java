@@ -91,6 +91,12 @@ public class Main {
 		p1.modifierPersonne("Casta", "Laetitia", Personne.MELLE);
 		System.out.println("Nouvelle modification de p1 : " + p1);
 		
+		// Pour tester notre méthode override finalize(), on va créer un certain nombre de personnes sans stocker leurs adresses 
+		// dans des variables. Ainsi, les personnes créees ne seront pas accessibles donc elles occupent inutilement la mémoire.
+		// Conséquence : A un moment donné, Java appellera le garbage collector qui va détruire ces instances et avant de les détruire,
+		// il appellera la méthode finalize()
+		
+		
 	} // Fin du Main
 
 	

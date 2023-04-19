@@ -209,7 +209,7 @@ public class Personne
 		return prenom;
 	}
 	
-	// Quelques méthodes surchargées de modification =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- //
+	// =-=-=-=-=-=-=-=-=-=- Quelques méthodes surchargées de modification -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- //
 	
 	public void modifierPersonne(String prenom, int civilite)
 	{
