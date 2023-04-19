@@ -252,6 +252,11 @@ public class Personne
 	// On peut l'appeler directement, elle est appelée par le garbage collector quand celui-ci libère la mémoire.
 	// L'appel est donc non déterministe. Il est possible que finalize ne soit jamais appelé.
 	
+	@Override
+	protected void finalize()
+	{
+		System.out.println("La place occupée par l'instance " + nom + " " + prenom + " a été libérée");
+	}
 	
 	
 } // Fin de la classe Personne
